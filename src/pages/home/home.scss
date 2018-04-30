@@ -1,3 +1,33 @@
 page-home {
 
+    ion-card-header {
+        background-color: tomato ;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    ion-icon {
+        background-color: transparent !important;
+    }
+
+    .picture-holder {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 50%;
+        height: auto;        
+        text-align: center;
+
+    }
+
 }

@@ -1,14 +1,74 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Resume App
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+  <div class="picture-holder">
+    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+  </div>
+
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    Application Developer
+    <br> at Fiction Labs
   </p>
+
+  <ion-card>
+    <ion-card-header>
+      <h2>
+          Personal Information
+      </h2>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-4>Name:</ion-col>
+          <ion-col col-8>Muhammad Azri</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-4>Faculty:</ion-col>
+          <ion-col col-8>Faculty of Computer Science And Mathematic</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-4>Course: </ion-col>
+          <ion-col col-8>Degree in Computer Science(Hons.)</ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+        <button ion-button color="dark" outline (click)="onGoToExperience()">
+          Experience
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-twitter-icon-logo-by-vexels.png"
+            alt="">
+        </a>
+      </ion-col>
+      <ion-col col-4>
+        <a href="https://facebook.com/" target="_blank">
+          <img src="https://i.pinimg.com/564x/3f/40/7d/3f407dc965335257705ea112bb3a32ce.jpg" alt="">
+        </a>
+      </ion-col>
+      <ion-col col-4>
+        <a href="https://github.com/" target="_blank">
+          <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="">
+        </a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

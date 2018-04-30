@@ -1,0 +1,16 @@
+page-fiction {
+    ion-card {
+        box-shadow: 2px 2px 4px #000000;
+        text-align: justify;
+
+    }
+
+    ion-card-header {
+        text-decoration: underline;
+    }
+
+    .picture-holder {
+        width: 200px;
+        height: auto;
+    }
+}

@@ -1,5 +1,7 @@
 {
   "name": "resume",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "0792680e",
+  "type": "ionic-angular",
+  "integrations": {},
+  "-": "legacy"
 }
